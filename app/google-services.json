@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "356745730873",
+    "project_id": "doornot-43c8d",
+    "storage_bucket": "doornot-43c8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356745730873:android:14cbbf59704730b199a6e8",
+        "android_client_info": {
+          "package_name": "com.robin.doornot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356745730873-dlp58q60nq93e7iri79smfa0768to6va.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.robin.doornot",
+            "certificate_hash": "6d68fe16201baac9ecd70ea4cf414d5487bac7dc"
+          }
+        },
+        {
+          "client_id": "356745730873-irtlokqocp010n4i1fgetv48t0045un2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOUw5tevZYWiatx6Cn-1E9nXgT-XyaNws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356745730873-irtlokqocp010n4i1fgetv48t0045un2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
