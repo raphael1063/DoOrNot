@@ -19,7 +19,15 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>() {
 
     override fun start() {
         binding.rvTopic.adapter = adapter
-        adapter.submitList(mutableListOf(TopicModel("1"), TopicModel("2"), TopicModel("3")))
+        adapter.submitList(
+            mutableListOf(
+                TopicModel("할까 말까", "해라", "하지 마라"),
+                TopicModel("살까 말까", "사라", "사지 마라"),
+                TopicModel("먹을까 말까", "먹어라", "먹지 마라"),
+                TopicModel("줄까 말까", "줘라", "주지 마라"),
+                TopicModel("갈까 말까", "가라", "가지 마라")
+            )
+        )
     }
 
     override fun observe() {

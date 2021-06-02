@@ -1,5 +1,7 @@
 package com.robin.doornot.data.entities
 
 data class TopicModel(
-    val title: String
+    val topic: String,
+    val positiveAnswer: String,
+    val negativeAnswer: String
 )
