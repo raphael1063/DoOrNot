@@ -19,6 +19,7 @@
         </activity>
         <activity android:name=".ui.main.MainActivity">
         </activity>
+        <activity android:name=".ui.result.ResultActivity"/>
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-5250624423672778~6125973113"/>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DoOrNot</string>
+    <string name="loading">Loading...</string>
 </resources>

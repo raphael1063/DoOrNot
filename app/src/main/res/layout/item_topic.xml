@@ -4,9 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+
         <variable
             name="vm"
             type="com.robin.doornot.ui.main.MainViewModel" />
+
         <variable
             name="model"
             type="com.robin.doornot.data.entities.TopicModel" />
@@ -14,28 +16,29 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_marginVertical="20dp"
+        android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
-        android:background="@drawable/bg_topic_item"
-        android:layout_height="wrap_content">
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/bg_topic_item">
 
         <TextView
             android:id="@+id/tv_item_title"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:paddingVertical="20dp"
-            android:gravity="center"
             android:clickable="true"
+            app:onSafeClick="@{() -> vm.onItemClicked(model)}"
             android:focusable="true"
             android:foreground="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:paddingVertical="20dp"
             android:text="@{model.topic}"
-            android:textSize="36sp"
-            tools:text="해 말어"
+            android:textSize="32sp"
             android:theme="@style/TextRegular"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="해 말어" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

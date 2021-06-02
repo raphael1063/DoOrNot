@@ -6,6 +6,8 @@ import com.robin.doornot.BR
 import com.robin.doornot.base.BaseActivity
 import com.robin.doornot.data.entities.TopicModel
 import com.robin.doornot.databinding.ActivityMainBinding
+import com.robin.doornot.ext.openActivity
+import com.robin.doornot.ui.result.ResultActivity
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>() {
@@ -21,15 +23,24 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>() {
         binding.rvTopic.adapter = adapter
         adapter.submitList(
             mutableListOf(
-                TopicModel("할까 말까", "해라", "하지 마라"),
-                TopicModel("살까 말까", "사라", "사지 마라"),
-                TopicModel("먹을까 말까", "먹어라", "먹지 마라"),
-                TopicModel("줄까 말까", "줘라", "주지 마라"),
-                TopicModel("갈까 말까", "가라", "가지 마라")
+                TopicModel("할까...말까?", "해라", "하지 마라"),
+                TopicModel("살까...말까?", "사라", "사지 마라"),
+                TopicModel("먹을까...말까?", "먹어라", "먹지 마라"),
+                TopicModel("줄까...말까?", "줘라", "주지 마라"),
+                TopicModel("갈까...말까?", "가라", "가지 마라")
             )
         )
     }
 
     override fun observe() {
+        with(viewModel) {
+            goResult.observe(this@MainActivity, { event ->
+                event?.getContentIfNotHandled()?.let {
+                    openActivity(ResultActivity::class.java){
+                        putParcelable("MODEL", it)
+                    }
+                }
+            })
+        }
     }
 }
