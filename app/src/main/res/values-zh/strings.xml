@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">做还是不做？</string>
+    <string name="loading">正在计算...</string>
+    <string name="doOrNot">做……不做？</string>
+    <string name="buyOrNot">买……不买？</string>
+    <string name="eatOrNot">吃……不吃？</string>
+    <string name="giveOrNot">给……不给？</string>
+    <string name="goOrNot">去还是不去？</string>
+    <string name="doIt">做吧</string>
+    <string name="dontDoIt">不要这样做</string>
+    <string name="buyIt">买它</string>
+    <string name="dontBuyIt">不要买</string>
+    <string name="eatIt">吃了它</string>
+    <string name="dontEatIt">不要吃</string>
+    <string name="giveIt">给它</string>
+    <string name="dontGiveIt">不要给</string>
+    <string name="go">去</string>
+    <string name="dontGo">别走</string>
+</resources>

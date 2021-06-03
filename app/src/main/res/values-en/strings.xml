@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Do or Not?</string>
     <string name="loading">Calculating...</string>
@@ -16,6 +17,4 @@
     <string name="dontGiveIt">Don\'t give it</string>
     <string name="go">Go</string>
     <string name="dontGo">Don\'t go</string>
-    <string name="adUnitId" translatable="false">ca-app-pub-5250624423672778~6125973113</string>
-    <string name="adTestUnitId" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
 </resources>

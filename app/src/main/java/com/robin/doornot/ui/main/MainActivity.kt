@@ -30,11 +30,11 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>() {
         binding.rvTopic.adapter = adapter
         adapter.submitList(
             mutableListOf(
-                TopicModel("할까...말까?", "해라", "하지 마라"),
-                TopicModel("살까...말까?", "사라", "사지 마라"),
-                TopicModel("먹을까...말까?", "먹어라", "먹지 마라"),
-                TopicModel("줄까...말까?", "줘라", "주지 마라"),
-                TopicModel("갈까...말까?", "가라", "가지 마라")
+                TopicModel(resources.getString(R.string.doOrNot), resources.getString(R.string.doIt), resources.getString(R.string.dontDoIt)),
+                TopicModel(resources.getString(R.string.buyOrNot), resources.getString(R.string.buyIt), resources.getString(R.string.dontBuyIt)),
+                TopicModel(resources.getString(R.string.eatOrNot), resources.getString(R.string.eatIt), resources.getString(R.string.dontEatIt)),
+                TopicModel(resources.getString(R.string.giveOrNot), resources.getString(R.string.giveIt), resources.getString(R.string.dontGiveIt)),
+                TopicModel(resources.getString(R.string.goOrNot), resources.getString(R.string.go), resources.getString(R.string.dontGo))
             )
         )
     }

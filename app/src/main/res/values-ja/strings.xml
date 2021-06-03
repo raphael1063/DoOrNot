@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">するかしないか?</string>
+    <string name="go">行く</string>
+    <string name="dontGo">行かないで</string>
+    <string name="goOrNot">行くか…？</string>
+    <string name="loading">計算中...</string>
+    <string name="eatIt">それを食べる</string>
+    <string name="eatOrNot">食べるか…？</string>
+    <string name="dontEatIt">食べないで</string>
+    <string name="buyIt">それを購入</string>
+    <string name="dontBuyIt">買わないでください</string>
+    <string name="buyOrNot">買うか…？</string>
+    <string name="dontGiveIt">与えないでください</string>
+    <string name="giveOrNot">あげますか…？</string>
+    <string name="giveIt">それを与える</string>
+    <string name="dontDoIt">やるな</string>
+    <string name="doOrNot">やるか、しないか？</string>
+    <string name="doIt">やれ</string>
+</resources>

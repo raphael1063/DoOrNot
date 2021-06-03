@@ -16,7 +16,6 @@
     </style>
 
     <style name="TextRegular" parent="Widget.AppCompat.TextView">
-        <item name="fontFamily">@font/jalnan</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textStyle">normal</item>
         <item name="android:paddingBottom">2dp</item>
@@ -24,7 +23,6 @@
     </style>
 
     <style name="TextBold" parent="Widget.AppCompat.TextView">
-        <item name="fontFamily">@font/jalnan</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textStyle">bold</item>
         <item name="android:paddingBottom">2dp</item>

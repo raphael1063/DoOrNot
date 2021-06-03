@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Faire ou pas ?</string>
+    <string name="loading">Calculatrice...</string>
+    <string name="doOrNot">Le faire... ou pas ?</string>
+    <string name="buyOrNot">Achetez-le... ou pas ?</string>
+    <string name="eatOrNot">Le manger... ou pas ?</string>
+    <string name="giveOrNot">Donnez-le... ou pas ?</string>
+    <string name="goOrNot">Aller... ou pas?</string>
+    <string name="doIt">Fais-le</string>
+    <string name="dontDoIt">Ne le fais pas</string>
+    <string name="buyIt">Achète-le</string>
+    <string name="dontBuyIt">Ne l\'achetez pas</string>
+    <string name="eatIt">Mange le</string>
+    <string name="dontEatIt">Ne le mange pas</string>
+    <string name="giveIt">Donne-le</string>
+    <string name="dontGiveIt">Ne le donne pas</string>
+    <string name="go">Va</string>
+    <string name="dontGo">Ne pars pas</string>
+</resources>

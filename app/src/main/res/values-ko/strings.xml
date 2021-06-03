@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">해 말어?</string>
+    <string name="loading">계산중...</string>
+    <string name="doOrNot">할까...말까?</string>
+    <string name="buyOrNot">살까...말까?</string>
+    <string name="eatOrNot">먹을까...말까?</string>
+    <string name="giveOrNot">줄까...말까?</string>
+    <string name="goOrNot">갈까...말까?</string>
+    <string name="doIt">해라</string>
+    <string name="dontDoIt">하지마라</string>
+    <string name="buyIt">사라</string>
+    <string name="dontBuyIt">사지마라</string>
+    <string name="eatIt">먹어라</string>
+    <string name="dontEatIt">먹지마라</string>
+    <string name="giveIt">줘라</string>
+    <string name="dontGiveIt">주지마라</string>
+    <string name="go">가라</string>
+    <string name="dontGo">가지마라</string>
+</resources>
