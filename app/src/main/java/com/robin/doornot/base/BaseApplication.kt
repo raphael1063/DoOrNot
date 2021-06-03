@@ -13,7 +13,6 @@ class BaseApplication : Application() {
         super.onCreate()
         instance = this
         Timber.plant(Timber.DebugTree())
-        MobileAds.initialize(this)
         startKoin {
             androidContext(this@BaseApplication)
             modules(

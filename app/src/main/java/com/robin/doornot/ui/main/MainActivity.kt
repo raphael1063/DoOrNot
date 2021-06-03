@@ -1,6 +1,8 @@
 package com.robin.doornot.ui.main
 
 
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.MobileAds
 import com.robin.doornot.R
 import com.robin.doornot.BR
 import com.robin.doornot.base.BaseActivity
@@ -20,6 +22,11 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>() {
     }
 
     override fun start() {
+
+        MobileAds.initialize(this)
+
+        binding.adView.loadAd(AdRequest.Builder().build())
+
         binding.rvTopic.adapter = adapter
         adapter.submitList(
             mutableListOf(
